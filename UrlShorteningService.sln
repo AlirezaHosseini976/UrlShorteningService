@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34909.67
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShorteningService", "UrlShorteningService\UrlShorteningService.csproj", "{BF6D9477-C117-4E87-9842-54C91F78E9AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShorteningService", "UrlShorteningService\UrlShorteningService.csproj", "{BF6D9477-C117-4E87-9842-54C91F78E9AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{633F1E65-36DD-46AF-AD43-553FAFCA70BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{AD8A7DE8-3F0F-402D-82B1-B481ACED96BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C06B3773-CF4C-413C-99A4-D378E15931A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{A78F8AE9-CF9C-4A3C-96E6-989D4B8692D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceContracts", "ServiceContracts\ServiceContracts.csproj", "{0F69D6D7-281B-47BA-B193-347769DAFDC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{EBEA67A3-3612-4B44-B243-94085C425183}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataContracts", "DataContracts\DataContracts.csproj", "{8F65421C-D155-4322-B588-3AC669A9B090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,32 @@ Global
 		{BF6D9477-C117-4E87-9842-54C91F78E9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF6D9477-C117-4E87-9842-54C91F78E9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF6D9477-C117-4E87-9842-54C91F78E9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78F8AE9-CF9C-4A3C-96E6-989D4B8692D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78F8AE9-CF9C-4A3C-96E6-989D4B8692D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78F8AE9-CF9C-4A3C-96E6-989D4B8692D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78F8AE9-CF9C-4A3C-96E6-989D4B8692D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F69D6D7-281B-47BA-B193-347769DAFDC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F69D6D7-281B-47BA-B193-347769DAFDC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F69D6D7-281B-47BA-B193-347769DAFDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F69D6D7-281B-47BA-B193-347769DAFDC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEA67A3-3612-4B44-B243-94085C425183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEA67A3-3612-4B44-B243-94085C425183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEA67A3-3612-4B44-B243-94085C425183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEA67A3-3612-4B44-B243-94085C425183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F65421C-D155-4322-B588-3AC669A9B090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F65421C-D155-4322-B588-3AC669A9B090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F65421C-D155-4322-B588-3AC669A9B090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F65421C-D155-4322-B588-3AC669A9B090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF6D9477-C117-4E87-9842-54C91F78E9AF} = {C06B3773-CF4C-413C-99A4-D378E15931A5}
+		{A78F8AE9-CF9C-4A3C-96E6-989D4B8692D6} = {633F1E65-36DD-46AF-AD43-553FAFCA70BB}
+		{0F69D6D7-281B-47BA-B193-347769DAFDC2} = {633F1E65-36DD-46AF-AD43-553FAFCA70BB}
+		{EBEA67A3-3612-4B44-B243-94085C425183} = {AD8A7DE8-3F0F-402D-82B1-B481ACED96BB}
+		{8F65421C-D155-4322-B588-3AC669A9B090} = {AD8A7DE8-3F0F-402D-82B1-B481ACED96BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA081294-0F2D-47E2-A043-659E66E04895}
